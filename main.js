@@ -64,7 +64,7 @@ const visObject = {
     // format the data
     data.forEach(function(d) {
       formattedData.push({
-      	count: d["game.count"]["value"],
+      	count: d["activities.count"]["value"],
         friendly_class: d["game.friendly_class"]["value"],
         opponent_class: d["game.opponent_class"]["value"]
       });
